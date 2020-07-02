@@ -28,12 +28,12 @@ return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  array.slice(1);
+  array.slice(length-0);
   
 }
 
 function removeElementFromBeginningOfArray(array){
-  array.slice(length-1);
+  array;
   return array;
 }
 
