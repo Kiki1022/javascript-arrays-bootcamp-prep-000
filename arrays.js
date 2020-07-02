@@ -38,10 +38,5 @@ function removeElementFromBeginningOfArray(array){
 }
 
 
-funtion removeElementFromEndOfArray(array){
-  
-}
-  
-
 
 
