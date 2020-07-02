@@ -37,8 +37,11 @@ function removeElementFromBeginningOfArray(array){
   return array;
 }
 
+
 funtion removeElementFromEndOfArray(array){
   
 }
+  
+
 
 
