@@ -29,7 +29,7 @@ return array[index];
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array.slice(-2);
-  
+  return array;
 }
 
 function removeElementFromBeginningOfArray(array){
@@ -43,8 +43,11 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 } 
 
 function removeElementFromEndOfArray(array){
+
   array.slice(0, array.length-1);
   
 }
+
+
 
 
