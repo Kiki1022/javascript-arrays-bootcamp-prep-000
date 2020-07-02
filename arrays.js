@@ -28,7 +28,7 @@ return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  array.slice(-2);
+  array.shift();
   return array;
 }
 
